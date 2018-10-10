@@ -57,7 +57,6 @@
     startProcess();
 
     function startProcess() {
-
         console.log('recursionCount = ', recursionCount);
         console.log('Process start');
 
@@ -81,6 +80,5 @@
             console.log('ALERT!');
             console.log('recursionCount has reached the edge')
         }
-
     }
 })();
